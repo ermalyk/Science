@@ -3,14 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '../../node_modules/@ng-bootstrap/ng-bootstrap';
+import { HeaderComponent } from './header/header.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
